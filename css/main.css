@@ -1,0 +1,100 @@
+body {
+  background-color: #212529;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+.main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  text-align: center;
+  background-color: #181818f1;
+  border: 2px solid #ffc8dd;
+  border-radius: 10px;
+  box-shadow: 0 2px 30px 3px rgba(0, 0, 0, 0.4);
+}
+
+.links {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  flex-wrap: wrap;
+  font-size: 2rem;
+}
+
+.links a {
+  margin: 0.5rem;
+  text-decoration: none;
+}
+
+.links .fa-twitter,
+.links .fa-spotify,
+.links .fa-twitch,
+.links .fa-spotify,
+.links .fa-lastfm,
+.links .fa-discord {
+  transition: color 0.2s ease-in-out;
+  margin: 1rem;
+  cursor: pointer;
+  top: -50px;
+  left: -35px;
+  display: block;
+  z-index: 999;
+  cursor: pointer;
+  color: white;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.links .fa-spotify:hover {
+  color: #ffc8dd;
+  transform: scale(1.2);
+}
+
+.links .fa-twitter:hover {
+  color: #ffc8dd;
+  transform: scale(1.2);
+}
+
+.links .fa-lastfm:hover {
+  color: #ffc8dd;
+  transform: scale(1.2);
+}
+
+.links .fa-twitch:hover {
+  color: #ffc8dd;
+  transform: scale(1.2);
+}
+
+.links .fa-discord:hover {
+  color: #ffc8dd;
+  transform: scale(1.2);
+}
+
+body {
+  opacity: 0;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 0.25s;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
