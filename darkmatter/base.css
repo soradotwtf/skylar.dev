@@ -37,7 +37,7 @@ button {
 .theme-dark,
 .theme-light {
   /* Discord vars */
-  --background-primary: var(--background-solid);
+  --background-primary: var(--background-transparent);
   --background-mobile-primary: var(--background-primary);
   --background-secondary: var(--background-solid);
   --background-mobile-secondary: var(--background-secondary);
