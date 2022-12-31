@@ -50,27 +50,27 @@ body {
 }
 
 .links .fa-spotify:hover {
-    color: #ffc8dd;
+    color: #DDCEC0;
     transform: scale(1.2);
 }
 
 .links .fa-twitter:hover {
-    color: #ffc8dd;
+    color: #DDCEC0;
     transform: scale(1.2);
 }
 
 .links .fa-lastfm:hover {
-    color: #ffc8dd;
+    color: #DDCEC0;
     transform: scale(1.2);
 }
 
 .links .fa-twitch:hover {
-    color: #ffc8dd;
+    color: #DDCEC0;
     transform: scale(1.2);
 }
 
 .links .fa-discord:hover {
-    color: #ffc8dd;
+    color: #DDCEC0;
     transform: scale(1.2);
 }
 
